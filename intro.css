@@ -96,6 +96,36 @@ input:nth-child(1) { margin-top: 1.5em; }
 
 .red { color: var(--red-color); }
 
+.input1 { position: relative; }
+
+#errorimg1, #errorimg2, #errorimg3, #errorimg4 { right: 4em; }
+
+#errorimg1 {
+   position: absolute;
+   top: 31em;
+}
+
+.input2 { position: relative; }
+
+#errorimg2 {
+   position: absolute;
+   top: 34.5em;
+}
+
+.input3 { position: relative; }
+
+#errorimg3 {
+   position: absolute;
+   top: 38.2em;
+}
+
+.input4 { position: relative; }
+
+#errorimg4 {
+   position: absolute;
+   top: 41.7em;
+}
+
 footer { 
    color: white;
    margin-top: -1em;
@@ -110,6 +140,28 @@ footer {
    }
 
    input:nth-child(1) { margin-top: 3em; }
+
+   #errorimg1, #errorimg2, #errorimg3, #errorimg4 { right: 8em; }
+
+   #errorimg1 {
+   position: absolute;
+   top: 25.5em;
+   }
+
+   #errorimg2 {
+   position: absolute;
+   top: 29.5em;
+   }
+
+   #errorimg3 {
+   position: absolute;
+   top: 33.5em;
+   }
+
+   #errorimg4 {
+   position: absolute;
+   top: 37.4em;
+   }
 }
 
 @media (min-width: 62em) {
@@ -148,6 +200,28 @@ footer {
       padding-left: 1em;
       padding-right: 1em;
    }
+
+   #errorimg1, #errorimg2, #errorimg3, #errorimg4 { right: 3em; }
+
+   #errorimg1 {
+   position: absolute;
+   top: 18.5em;
+   }
+
+   #errorimg2 {
+   position: absolute;
+   top: 22.5em;
+   }
+
+   #errorimg3 {
+   position: absolute;
+   top: 26.5em;
+   }
+
+   #errorimg4 {
+   position: absolute;
+   top: 30.5em;
+   }
 }
 
 @media (min-width: 82em) {
@@ -173,4 +247,6 @@ footer {
    }
 
    .intro-para { padding-left: 10em; }
+
+   #errorimg1, #errorimg2, #errorimg3, #errorimg4 { right: 7em; }
 }
