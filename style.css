@@ -92,7 +92,16 @@ button:hover {
 
 .terms-small { color: var(--grayish-blue); }
 
-.red { color: var(--red-color);
+span { color: var(--red-color);
+}
+
+.first-name-field, .second-name-field, .email-add-field, .password-field { position: relative; }
+
+#error-img1, #error-img2, #error-img3, #error-img4 {
+   position: absolute;
+   top: 15px;
+   right: 15px;
+   display: none;
 }
 
 @media (min-width: 688px) {
