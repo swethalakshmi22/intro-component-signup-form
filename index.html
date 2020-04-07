@@ -3,56 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="intro.css" rel="stylesheet">
   <title>Frontend Mentor | Intro component with sign up form</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
- <div class="container">
-   <div class="intro-text">
-    <h2>Learn to code by watching others</h2>
-
-    <p class="intro-para">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-    but understanding how developers think is invaluable.</p> 
-   </div>
-  
-  <div class="left-part">
-  <p class="blue-box"><span class="white bold">Try it free 7 days</span> then $20/mo. thereafter</p>
-
-  <form>
-
-  <input type="text" placeholder="First Name" id="text-col" class="input1">
-  <img src="images/icon-error.svg" alt="errorimg" id="errorimg1">
-  <small></small></br>
-  <input type="text" placeholder="Last Name" id="text-col" class="input2">
-  <img src="images/icon-error.svg" alt="errorimg" id="errorimg2">
-  <small></small></br>
-  <input type="email" placeholder="Email Address" id="text-col" class="input3">
-  <img src="images/icon-error.svg" alt="errorimg" id="errorimg3">
-  <small></small></br>
-  <input type="password" placeholder="Password" id="text-col" class="input4">
-  <img src="images/icon-error.svg" alt="errorimg" id="errorimg4">
-  <small></small></br>
-
-  <input type="submit" value="Claim your free trial" class="submit bold"></br>
-
-  <p class="form-terms">By clicking the button, you are agreeing to our <span class="red bold"> Terms and Services</span></p>
-
-  </form>
+  <div class="container">
+    <div class="left-side">
+      <h1>Learn to code by <br>watching others</h1>
+      <p> See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+    </div>
+    <div>
+      <div class="box box-blue"><strong>Try it free 7 days</strong> then $20/mo. thereafter</div>
+      <form class="box form-style">
+          <div><input type="text" placeholder="First Name "><small></small></div>
+          <div><input type="text" placeholder="Last Name"><small></small></div>
+          <div><input type="email" placeholder="Email Address"><small></small></div>
+          <div><input type="text" placeholder="Password"><small></small></div>
+          <button>Claim your free trial</button>
+          <small class="terms-small">By clicking the button, you are agreeing to our <span class="red"><strong>Terms and Services</strong></span></small>
+      </form>
+    </div>
   </div>
-  </div>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Swetha Lakshmi</a>.
-    </p>
-  </footer>
+  <script src="app.js"></script>
 </body>
 </html>
