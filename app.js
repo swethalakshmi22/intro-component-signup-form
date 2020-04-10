@@ -26,27 +26,23 @@ function inputErrors(event) {
    let inputVal4 = inputField4.value.trim();
   if (inputVal1 === '') {
      inputVal1 === '';
-     inputField1.focus();
      inputField1.style.borderColor = 'hsl(0, 100%, 74%)';
      inputField1.style.borderWidth = '2px';
      errorImg1.style.display = 'block';
      errorMsg1.style.display = 'block';
   } else {
      inputVal1 === '';
-     inputField1.focus();
      errorImg1.style.display = 'none';
      errorMsg1.style.display = 'none';
   }
   if (inputVal2 === '') {
    inputVal2 === '';
-   inputField2.focus();
    inputField2.style.borderColor = 'hsl(0, 100%, 74%)';
    inputField2.style.borderWidth = '2px';
    errorImg2.style.display = 'block';
    errorMsg2.style.display = 'block';
   } else {
    inputVal2 === '';
-   inputField2.focus();
    errorImg2.style.display = 'none';
    errorMsg2.style.display = 'none';
   }
@@ -63,14 +59,12 @@ function inputErrors(event) {
   }
   if (inputVal4 === '') {
    inputVal4 === '';
-   inputField4.focus();
    inputField4.style.borderColor = 'hsl(0, 100%, 74%)';
    inputField4.style.borderWidth = '2px';
    errorImg4.style.display = 'block';
    errorMsg4.style.display = 'block';
   } else {
    inputVal4 === '';
-   inputField4.focus();
    errorImg4.style.display = 'none';
    errorMsg4.style.display = 'none';
   }
