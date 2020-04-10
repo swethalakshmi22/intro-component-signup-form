@@ -32,6 +32,8 @@ function inputErrors(event) {
      errorMsg1.style.display = 'block';
   } else {
      inputVal1 === '';
+     inputField1.style.borderColor = 'none';
+     inputField1.style.borderWidth = '1px';
      errorImg1.style.display = 'none';
      errorMsg1.style.display = 'none';
   }
@@ -43,6 +45,8 @@ function inputErrors(event) {
    errorMsg2.style.display = 'block';
   } else {
    inputVal2 === '';
+   inputField2.style.borderColor = 'none';
+   inputField2.style.borderWidth = '1px';
    errorImg2.style.display = 'none';
    errorMsg2.style.display = 'none';
   }
@@ -54,6 +58,8 @@ function inputErrors(event) {
    errorMsg3.style.display = 'block';
   } else {
    inputVal3 === '';
+   inputField3.style.borderColor = 'hsl(246, 25%, 77%)';
+   inputField3.style.borderWidth = '1px';
    errorImg3.style.display = 'none';
    errorMsg3.style.display = 'none';
   }
@@ -65,6 +71,8 @@ function inputErrors(event) {
    errorMsg4.style.display = 'block';
   } else {
    inputVal4 === '';
+   inputField4.style.borderColor = 'hsl(246, 25%, 77%)';
+   inputField4.style.borderWidth = '1px';
    errorImg4.style.display = 'none';
    errorMsg4.style.display = 'none';
   }
