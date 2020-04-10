@@ -72,7 +72,8 @@ input:focus {
    color: black;
 }
 
-form div:not(:first-child), button { margin-top: 15px; }
+
+form div:not(:first-child), button { margin-top: 25px; }
 
 button {
    background-color: var(--green-color);
@@ -88,6 +89,7 @@ button {
 button:hover {
    background-color: hsl(154, 59%, 45%);
    color:white;
+   cursor: pointer;
 }
 
 .terms-small { color: var(--grayish-blue); }
@@ -100,7 +102,17 @@ span { color: var(--red-color);
 #error-img1, #error-img2, #error-img3, #error-img4 {
    position: absolute;
    top: 15px;
-   right: 15px;
+   right: 25px;
+   display: none;
+}
+
+#error-msg1, #error-msg2, #error-msg3, #error-msg4 {
+   position: absolute;
+   top: 50px;
+   right: 5px;
+   font-weight: 500;
+   color: var(--red-color);
+   padding: 2px;
    display: none;
 }
 

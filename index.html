@@ -20,24 +20,24 @@
           <div class="first-name-field">
             <input type="text" placeholder="First Name " id="input1">
             <img src="images/icon-error.svg" alt="errorimg" id="error-img1">
-            <small id="error-msg1"></small>
+            <small id="error-msg1">First Name cannot be empty</small>
           </div>
           <div class="second-name-field">
             <input type="text" placeholder="Last Name" id="input2">
             <img src="images/icon-error.svg" alt="errorimg" id="error-img2">
-            <small id="error-msg2"></small>
+            <small id="error-msg2">Last Name cannot be empty</small>
           </div>
           <div class="email-add-field">
             <input type="email" placeholder="Email Address" id="input3">
             <img src="images/icon-error.svg" alt="errorimg" id="error-img3">
-            <small id="error-msg3"></small>
+            <small id="error-msg3">Looks like this is not an email</small>
           </div>
           <div class="password-field">
             <input type="password" placeholder="Password" id="input4">
             <img src="images/icon-error.svg" alt="errorimg" id="error-img4">
-            <small id="error-msg4"></small>
+            <small id="error-msg4">Password cannot be empty</small>
           </div>
-          <button>Claim your free trial</button>
+          <button onclick="inputErrors(event)">Claim your free trial</button>
           <small class="terms-small">By clicking the button, you are agreeing to our <span><strong>Terms and Services</strong></span></small>
       </form>
     </div>
