@@ -65,12 +65,14 @@ input, button {
    border-radius: 5px;
 }
 
-input { padding-left: 30px; }
+input { 
+   padding-left: 30px;
+   outline: none;
+ }
 
 input:focus {
    border: 1px solid var(--blue-color);
    color: black;
-   outline: none;
 }
 
 
