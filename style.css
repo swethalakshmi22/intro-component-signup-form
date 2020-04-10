@@ -70,6 +70,7 @@ input { padding-left: 30px; }
 input:focus {
    border: 1px solid var(--blue-color);
    color: black;
+   outline: none;
 }
 
 
